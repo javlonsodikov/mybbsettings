@@ -9,11 +9,10 @@
 
 $config['database']['type'] = 'mysqli';
 $config['database']['database'] = 'database_name_here';
-$config['database']['table_prefix'] = 'mybb_';
-
 $config['database']['hostname'] = 'database_host_here';
 $config['database']['username'] = 'database_user_here';
 $config['database']['password'] = 'database_pass_here';
+$config['database']['table_prefix'] = 'mybb_';
 
 /**
  * Admin CP directory
@@ -98,13 +97,6 @@ $config['log_pruning'] = array(
 );
 
 /**
- * Admin CP Secret PIN
- *  If you wish to request a PIN
- *  when someone tries to login
- *  on your Admin CP, enter it below.
- */
-
-$config['secret_pin'] = '';/**
  * Admin CP Secret PIN
  *  If you wish to request a PIN
  *  when someone tries to login
